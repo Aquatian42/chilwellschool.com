@@ -1,0 +1,433 @@
+﻿#inner-wrapper {
+height: 100%; padding-top: 20px; background: #283A52;
+}
+
+#page { 
+padding: 0px 0px 50px; width: 100%; background: #FFF; display: flex;
+}
+
+#page .container {
+width: 100%; margin: 0px auto; position: relative;    max-width: 1900px;
+}
+
+.page-template-full-width #page .container, .single #page .container,  .search #page .container {
+max-width: 1100px;
+width: 100%;
+}
+
+#content {
+float: left;
+    width: 67%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.single #page #content {
+margin-left: 0px !important;
+}
+
+#content h2 {
+font-size: 35px;
+}
+
+.page-title {
+	padding: 0px 0px 0px 15px;
+}
+
+.page-title h1 {
+font-size: 50px; color: #283A52; margin: 10px 0px 20px 0px;
+}
+
+p, td, #content li {
+font-size: 16px;
+}
+
+h2, h3, h4 {
+color: #283A52;
+}
+
+#content a:link,
+#content a:visited {
+color: #283A52;
+}
+
+/*--------- Breadcrumbs ---------*/
+
+#breadcrumbs{
+width:100%;
+list-style:none;
+margin: 0px !important; padding: 0px;
+}
+
+#breadcrumbs li{
+display:inline-block;
+vertical-align:middle;
+margin-right: 10px;
+color:#3c3c3c; font-size: 11px; font-weight: 500; text-transform: uppercase; letter-spacing: 1px;
+}
+
+#breadcrumbs .separator{
+    font-size: 11px;
+    font-weight: 400;
+    color: #28395233;
+}
+
+#breadcrumbs a:link,
+#breadcrumbs a:visited {
+color: #3c3c3c; text-decoration: none; border-bottom: none; font-weight: 500 !important;
+}
+
+/*--------- Sidebar ---------*/
+
+#sidebar1 {background: #283A52;
+float: right;
+min-height: 300px; width: 25%;
+margin-bottom: 50px;
+display: table; 
+position: relative;
+border-radius: 0px 0px 0px	 20px;
+}
+
+#sidebar1 aside {
+margin-bottom: 5px;
+padding: 0px 0px;
+}
+
+#sidebar1 h3 {
+font-size: 25px;  
+margin: 0px;
+width: 100%;
+padding:27px 50px 35px 50px;
+color: #FFF;
+}
+
+#sidebar1 ul {
+list-style: none;
+margin: 0px; padding: 0px;
+}
+
+#sidebar1 ul li {
+width: 100%; margin: 0px 0px 0px 0%;
+}
+
+#sidebar1 ul li ul li {
+width: 100%;
+margin: 0px 0%;
+}
+
+#sidebar1 ul li:last-child {
+border-bottom: 0px;
+}
+
+#sidebar1 a:link,
+#sidebar1 a:visited {
+width: 100%; padding: 24px 15%;
+color: #FFF; font-weight: 600;
+text-decoration: none;
+font-size: 16px; line-height: 25px; text-transform: uppercase; letter-spacing: 1px;
+display: block;
+}
+
+#sidebar1 a:hover {
+background: rgba(255, 255, 255, 0.08);
+}
+
+#sidebar1 .grandchild-sidebar-menu a:link,
+#sidebar1 .grandchild-sidebar-menu a:visited{
+width: 100%;
+}
+
+#sidebar1 .children a:link,
+#sidebar1 .children a:visited {
+background: none !important;
+font-size: 16px;
+text-transform: none; letter-spacing: 0;
+}
+
+#sidebar1 .dropdown-toggle,
+#sidebar1 .dropdown-toggle.toggled-on {
+display: inherit;
+}
+
+}
+
+#sidebar1 button#menu-toggle:after {
+content: "\f419";
+-moz-osx-font-smoothing: grayscale;
+-webkit-font-smoothing: antialiased;
+font-family: "Genericons";
+font-size: 22px;
+font-weight: 400;
+speak: none;
+vertical-align: middle;
+width: 20px;
+top: 0px;
+height: 20px;
+margin-left: 8px;
+margin-top: -6px;
+}
+
+#sidebar1 button#menu-toggle.toggled-on:after {
+content: "\f406";
+}
+
+#sidebar1 .dropdown-toggle.toggled-on:after {
+content: "\f432";
+}
+
+#sidebar1 .main-navigation ul {
+list-style: none;
+margin: 0;
+}
+
+#sidebar1 .main-navigation li {
+position: relative;
+border-top: 1px solid hsla(0, 0%, 100%, 0.09);
+}
+
+#sidebar1 .main-navigation a {
+display: block;
+outline-offset: -1px;
+color: #1a1a1a;
+display: block;
+line-height: 1.3125;
+outline-offset: -1px;
+padding: 25px 50px 25px 50px;
+}
+
+#sidebar1 .main-navigation ul ul  {
+background: rgba(255, 255, 255, 0.1);
+}
+
+#sidebar1 .main-navigation ul ul a {
+padding: 17px 0px 17px 50px;
+}
+
+#sidebar1 .main-navigation ul ul ul {
+background: rgba(255, 255, 255, 0.2);
+}
+
+#sidebar1 .main-navigation ul ul ul a {
+padding: 17px 0px 17px 70px;
+}
+
+#sidebar1 .main-navigation a:link,
+#sidebar1 .main-navigation a:visited{
+color: #FFF; text-decoration: none; font-size: 14px;
+}
+
+#sidebar1 .main-navigation .current-menu-item > a,
+#sidebar1 .main-navigation .current-menu-ancestor > a {
+font-weight: 700;
+}
+
+#sidebar1 .main-navigation ul ul {
+display: none;
+margin-left: 0px;
+}
+
+#sidebar1 .no-js #header-menu #navigation ul ul {
+display: block;
+}
+
+#sidebar1 .main-navigation ul .toggled-on {
+display: block;
+padding: 0px;
+
+}
+
+#sidebar1 .main-navigation .primary-menu {
+margin: 0px; padding: 0px;
+}
+
+#sidebar1 .main-navigation .page_item_has_children > a {
+width: calc(100% - 110px);
+}
+
+#sidebar1 .dropdown-toggle {
+background-color: rgba(255, 255, 255, 0.1);
+border: 0;
+border-radius: 0;
+color: #FFF;
+content: "";
+height: 68px;
+padding: 0;
+position: absolute;
+right: 0;
+text-transform: none;
+top: 0;
+width: 90px; left: inherit; z-index: 1;
+}
+
+#sidebar1 .dropdown-toggle:after {
+content: "\f431";
+font-size: 24px;
+left: 1px;
+position: relative;
+width: 90px;
+}
+
+#sidebar1 .dropdown-toggle.toggled-on:after {
+top: 1px !important;
+}
+
+#sidebar1 .dropdown-toggle:hover,
+#sidebar1 .dropdown-toggle:focus {
+background-color: rgba(255, 255, 255, 0.2);
+}
+
+#sidebar1 .dropdown-toggle:focus {
+outline: thin dotted;
+outline-offset: -1px;
+}
+
+#sidebar1 .dropdown-toggle:focus:after {
+border-color: transparent;
+}
+
+@media (max-width: 1300px) {
+
+#sidebar1 .dropdown-toggle,
+#sidebar1 .dropdown-toggle:after {
+width: 70px;
+}
+
+}
+
+
+/*---------------------------------
+Misc
+---------------------------------*/
+
+/*--------- PDF Icons ---------*/
+
+#content a[href$=".pdf"],
+#content a[href$=".doc"],
+#content a[href$=".docx"]   {
+padding: 10px 0px 0px 70px;
+background: url(../../madebycoda/images/icons/pdf.svg) no-repeat;
+height: 60px;
+background-size: 50px auto;
+border-bottom: none;
+display: table;
+margin-bottom: 0px !important;
+font-weight: 800;
+
+}
+
+#content a[href$=".doc"],
+#content a[href$=".docx"] {
+background: url(../../madebycoda/images/icons/doc.svg) no-repeat;
+background-size: 50px auto;
+}
+
+#content .vc_figure a[href$=".pdf"],
+#content .vc_figure a[href$=".doc"],
+#content .vc_figure a[href$=".docx"],
+#content td a[href$=".pdf"],
+#content td a[href$=".doc"],
+#content td a[href$=".docx"] {
+background: none;
+padding: 0px !important; 
+height: auto;
+margin-bottom: 0px !important;
+}
+
+.entry-content a:link,
+.entry-content a:visited {
+color: #333;
+text-decoration: none;
+}
+
+/*--------- Table ---------*/
+
+td {
+padding: 15px;
+border:1px solid #F1F1F1;
+}
+
+td p {
+margin: 0px !important;
+}
+
+
+/*--------- Images ---------*/
+
+figure {
+margin: 0px;
+}
+
+figure.alignright,
+img.alignright {
+float: right;
+margin: 13px 0px 20px 40px;
+max-width: 40% !important; height: auto;
+}
+
+figure.alignleft {
+float: left;
+margin: 8px 3% 10px 0px;
+}
+
+.entry-content figure a:link,
+.entry-content figure a:visited {
+border-bottom: 0px;
+}
+
+figure.alignleft .wp-caption-text {
+color: #333;
+line-height: 24px;
+text-align: left;
+}
+
+figure.alignright img {
+width: 100%; height: auto;
+}
+
+.wp-caption-text,
+.wp-caption-text a:link,
+.wp-caption-text a:visited {
+color: #FFF;
+font-size: 15px;
+text-align: right;
+margin: 5px 0px 0px 0px;
+}
+
+img.alignleft,
+img.alignnone {
+float: left;
+margin: 10px 20px 20px 0px;
+max-width: 40%; height: auto;
+}
+
+.wpb_single_image .vc_figure-caption {
+font-size: 16px !important;
+margin: 20px 0px 30px !important;
+color: #757575;
+}
+
+/*--------- Edit Link ---------*/
+
+.edit-link {
+margin-top: 20px;
+}
+
+.edit-link a:link,
+.edit-link a:visited {
+background: rgba(255,255,255,.9);
+padding: 5px 10px;
+border-radius: 10px;
+color: #333;
+text-decoration: none;
+margin-right: 10px;
+}
+
+
+
+@media (max-width:600px) {
+	
+#inner-wrapper {
+padding-top: 10px;
+}
+	
+	}
